@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout</title>
+  <link rel="stylesheet" href="./assets/styles/checkout.css" />
+</head>
+<body>
+  <header>
+    <h1>Checkout</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <main>
+    <form id="checkout-form">
+      <label>Name: <input type="text" required /></label><br />
+      <label>Address: <input type="text" required /></label><br />
+      <label>Email: <input type="email" required /></label><br />
+      <button type="submit">Place Order</button>
+    </form>
+    <p id="confirmation" style="display: none;">Thank you! Your order has been placed.</p>
+  </main>
+
+  <script src="./assets/scripts/checkout.js"></script>
+</body>
+</html>
